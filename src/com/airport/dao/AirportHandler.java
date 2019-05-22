@@ -13,6 +13,8 @@ public class AirportHandler {
     private Map<String, Staff> staffMap = new HashMap<>();
     private Map<String, Passengers> passengersMap = new HashMap<>();
 
+    public DatabaseHandler dh = new DatabaseHandler();
+
     public AirportHandler() {}
 
     public Map<String, Planes> getPlanesMap() { return this.planesMap; }
